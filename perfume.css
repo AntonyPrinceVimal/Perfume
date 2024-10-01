@@ -1,0 +1,250 @@
+body, html{
+    margin: 0%;
+    overflow: hidden;
+}
+.outline{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgb(1, 58, 1);
+}
+.logodiv{
+    width: 11%;
+    height: 26%;
+    position: absolute;
+    top: -4%;
+    left: -2%;
+    z-index: 2;
+    filter: brightness(0) invert(1);
+}
+.logo{
+    
+    width: 100%;
+    height: 100%;
+} 
+.info{
+    position: absolute;
+    top: 2%;
+    left: 13%;
+    color: white;
+    font-size: 1.5vw;
+    font-family: "Viga";
+    z-index: 5;
+    font-weight: 400;
+    font-style: normal;
+}
+.enquiry{
+    position: absolute;
+    top: 2%;
+    left: 19%;
+    color: white;
+    font-size: 1.5vw;
+    font-family: "Viga";
+    z-index: 5;
+    font-weight: 400;
+    font-style: normal;
+}
+.contact{
+    position: absolute;
+    top: 2%;
+    left: 27%;
+    color: white;
+    font-size: 1.5vw;
+    font-family: "Viga";
+    z-index: 5;
+    font-weight: 400;
+    font-style: normal;
+}
+.info:hover,.enquiry:hover,.contact:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+.slogan0{
+    font-size: 3vw;
+    position: absolute;
+    color: white;
+    top: 33%;
+    left: 2%;
+    font-family: "Josefin Sans";
+    z-index: 4;
+    opacity: 0.7;
+
+}
+.slogan1{
+    font-size: 15vw;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 17%;
+    left: 7%;
+}
+.bar0{
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    bottom: -30%;
+    left: 40%;
+    background-color: rgb(3, 156, 3);
+}
+.bar1{
+    width: 20%;
+    height: 50%;
+    position: absolute;
+    top: -10%;
+    left: 40%;
+    background-color: rgb(3, 156, 3);
+}
+.bar2{
+    width: 25%;
+    height: 60%;
+    background-color:white;
+    position: absolute;
+    top: 10%;
+    left: 37.5%;
+    clip-path: ellipse(41% 3% at 50% 50%);
+    z-index: 2;
+}
+.bottombar{
+    width: 122.5%;
+    height: 60%;
+    background-color:rgb(3, 156, 3);
+    position: absolute;
+    top: -30%;
+    left: -11%;
+    clip-path: ellipse(41% 3% at 50% 50%);
+    
+}
+.bar3{
+    width: 20%;
+    height: 2%;
+    background-color:white;
+    position: absolute;
+    top: 39%;
+    left: 40%;
+    filter: blur(10px);
+    opacity: 0.9;
+    z-index: 3;
+}
+.bar00{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(1, 22, 7);
+    filter: blur(40px);
+    position: absolute;
+    left: -5%;
+    top: 0%;
+    opacity: 0.7;
+    z-index: 1;
+}
+.bar000{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(1, 22, 7);
+    filter: blur(40px);
+    position: absolute;
+    right: -5%;
+    top: 0%;
+    opacity: 0.7;
+    z-index: 1;
+}
+.bar11{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(1, 22, 7);
+    filter: blur(40px);
+    position: absolute;
+    left: -5%;
+    top: 0%;
+    opacity: 0.7;
+    z-index: 1;
+}
+.bar22{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(1, 22, 7);
+    filter: blur(40px);
+    position: absolute;
+    right: -5%;
+    top: 0%;
+    opacity: 0.7;
+    z-index: 1;
+}
+.sha1{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(1, 22, 7);
+    filter: blur(40px);
+    position: absolute;
+    left: -5%;
+    top: 0%;
+    opacity: 0.7;
+    z-index: 1;
+}
+.sha2{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(1, 22, 7);
+    filter: blur(40px);
+    position: absolute;
+    right: -5%;
+    top: 0%;
+    opacity: 0.7;
+    z-index: 1;
+}
+.line1{
+    width: 15%;
+    height: 30%;
+    background-color: white;
+    position: absolute;
+    top: 45%;
+    left: 42%;
+    filter: blur(50px);
+    opacity: 0.5;
+}
+.sha3{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(0, 10, 3);
+    filter: blur(40px);
+    position: absolute;
+    left: -5%;
+    top: 0%;
+    opacity: 0.7;
+    z-index: 1;
+}
+.sha4{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(0, 8, 3);
+    filter: blur(40px);
+    position: absolute;
+    right: -5%;
+    top: 0%;
+    opacity: 0.7;
+    z-index: 1;
+}
+.i{
+    width: 15%;
+    height: 55%;
+    position: absolute;
+    left: 43%;
+    bottom: 12%;
+    transform: rotate(30deg);
+    z-index: 3;
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
